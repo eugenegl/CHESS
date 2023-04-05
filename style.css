@@ -152,7 +152,7 @@ menu {
 
 #bg-figure {
     z-index: -1;
-    scale: 0.5;
+    scale: 0.7;
     position: absolute;
 
     right: 190px;
@@ -179,4 +179,13 @@ footer {
 
 #arrow {
     margin-left: 5px;
+}
+
+.block__menu-adaptive {
+    margin: auto 0 0 0;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+
+    border-radius: 20px;
 }

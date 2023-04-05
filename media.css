@@ -1,3 +1,29 @@
+@media (min-width: 430px) and (max-width: 833px) {
+    .h1__content {
+        margin: -15% 0 0 -15%;
+        scale: 0.5;
+    }
+
+    #bg-figure {
+        transform: scale(0.7);
+    }
+}
+
+@media (min-width: 834px) and (max-width: 1439px) {
+    .h1__content {
+        margin: -5% 0 0 -5%;
+        scale: 0.8;
+    }
+
+    #bg-figure {
+        transform: scale(0.9);
+    }
+}
+
+@media (min-width: 1440px) {
+
+}
+
 @media (min-width: 1920px) and (max-width: 2600px) {
     .h1__content {
         margin: 5% 0 0 5%;
@@ -5,7 +31,6 @@
     }
 
     #bg-figure {
-        transform: scale(1.3);
-    
+        transform: scale(1.4);
     }
 }
