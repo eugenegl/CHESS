@@ -36,6 +36,7 @@ h1 {
 
     color: rgba(255, 255, 255, 0.2);
 
+    cursor: pointer;
 }
 
 
@@ -104,6 +105,8 @@ span {
     align-items: center;
 
     gap: 15px;
+
+    cursor: pointer;
 }
 
 #arrow-main {

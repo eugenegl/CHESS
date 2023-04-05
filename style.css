@@ -7,10 +7,10 @@ html {
 }
 
 body {
+    position: relative;
     color: #fff;
     margin: 0;
     overflow: hidden;
-
 
     background-color: var(--background-color);
 }
@@ -150,6 +150,7 @@ menu {
 }
 
 #bg-figure {
+    z-index: -1;
     scale: 0.5;
     position: absolute;
 
@@ -163,8 +164,8 @@ menu {
 
 .h1__content {
     position: absolute;
-    left: 300px;
-    top: 100px;
+    left: 20%;
+    top: 20%;
 }
 
 footer {
