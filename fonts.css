@@ -1,0 +1,141 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 20px 0 95px 0;
+
+    width: 516px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    letter-spacing: -0.05em;
+
+    color: #E9DEFF;
+}
+
+.menu__drop {
+    cursor: pointer;
+}
+
+.menu__button-header {
+    margin: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.2);
+
+}
+
+
+.plus {
+    margin: 0;
+    font-size: 22px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.menu__button-normal {
+    margin: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    opacity: 0.8;
+
+    cursor: pointer;
+}
+
+
+.active__boards-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu__btns {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+#btn {
+    color: var(--primary-color);
+}
+
+.main__btn {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+#arrow-main {
+    scale: 1.8;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+    text-transform: uppercase;
+
+
+    color: var(--secondary-color)
+}
+
+.point__word {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    letter-spacing: -0.05em;
+
+    background: linear-gradient(93deg, #38B6EC 49.3%, #23FFB0 87.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
