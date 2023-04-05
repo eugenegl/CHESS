@@ -1,5 +1,6 @@
 @import url(./fonts.css);
 @import url(./colors.css);
+@import url(./media.css);
 
 html {
     margin: 0;
@@ -101,7 +102,7 @@ menu {
     margin: 0;
     padding: 23px 25px;
 
-    width: 213px;
+    width: 170px;
     height: 352px;
 
 
