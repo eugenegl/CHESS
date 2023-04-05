@@ -155,7 +155,7 @@ menu {
     position: absolute;
 
     right: 190px;
-    bottom: -490px;
+    bottom: -420px;
 }
 
 #bottom__label {
@@ -165,7 +165,7 @@ menu {
 .h1__content {
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 15%;
 }
 
 footer {
