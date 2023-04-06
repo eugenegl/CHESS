@@ -152,11 +152,11 @@ menu {
 
 #bg-figure {
     z-index: -1;
-    scale: 0.7;
+    scale: 0.6;
     position: absolute;
-
-    left: 35%;
-    bottom: -420px;
+    
+    right: 23%;
+    bottom: -210px;
 }
 
 #bottom__label {

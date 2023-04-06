@@ -1,21 +1,32 @@
 @media (min-width: 430px) and (max-width: 833px) {
+    .block__menu {
+        display: none !important;
+    }
+
     .h1__content {
         margin: -15% 0 0 -15%;
-        scale: 0.5;
+        scale: 0.7;
     }
 
     #bg-figure {
+        right: -30% !important;
         transform: scale(0.7);
     }
 }
 
 @media (min-width: 834px) and (max-width: 1439px) {
+    .block__menu {
+        display: none !important; 
+    }
+
+
     .h1__content {
         margin: -5% 0 0 -5%;
         scale: 0.8;
     }
 
     #bg-figure {
+        right: 30% !important;
         transform: scale(0.9);
     }
 
