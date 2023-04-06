@@ -9,8 +9,8 @@
     }
 
     #bg-figure {
-        right: -30% !important;
-        transform: scale(0.7);
+        right: -10% !important;
+        transform: scale(1);
     }
 }
 
@@ -26,7 +26,7 @@
     }
 
     #bg-figure {
-        right: 30% !important;
+        right: 5% !important;
         transform: scale(0.9);
     }
 
